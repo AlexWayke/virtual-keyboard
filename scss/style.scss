@@ -8,3 +8,41 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 a{color:inherit;text-decoration: none;}
+
+// Fonts ==============================
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:regular,600);
+@font-face {
+  font-family: "icons";
+  src: url(../src/iconFont/icomoon.woff) format('woff');
+}
+
+.main {
+  font-family: Noto sans;
+}
+// Colors =============================
+:root {
+  --color-btn:#c67a30;
+  --color-btn-hover:#e49445;
+  --color-btn-spec:#8b471a;
+  --color-bg:#98624c;
+  --color-border:#543431;
+  --color-text: #fff;
+}
+// Main styles ========================
+.main {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.keyboard__textarea {
+}
+.keyboard__wrapper {
+}
+.keyboard__row {
+}
+.btn {
+}
+.btn-spec {
+}
+.keyboard__notation {
+}

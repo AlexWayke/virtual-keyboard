@@ -1,0 +1,77 @@
+{
+  "keyboardRowsBtns":[
+    [
+      {"ruslow": "ё","rusup": "Ё","enlow": "`","enup": "~","isSpec": "false"},
+      {"ruslow": "1","rusup": "!","enlow": "1","enup": "!","isSpec": "false"},
+      {"ruslow": "2","rusup": "\"","enlow": "2","enup": "@","isSpec": "false"},
+      {"ruslow": "3","rusup": "№","enlow": "3","enup": "#","isSpec": "false"},
+      {"ruslow": "4","rusup": ";","enlow": "4","enup": "$","isSpec": "false"},
+      {"ruslow": "5","rusup": "%","enlow": "5","enup": "%","isSpec": "false"},
+      {"ruslow": "6","rusup": ":","enlow": "6","enup": "^","isSpec": "false"},
+      {"ruslow": "7","rusup": "?","enlow": "7","enup": "&","isSpec": "false"},
+      {"ruslow": "8","rusup": "*","enlow": "8","enup": "*","isSpec": "false"},
+      {"ruslow": "9","rusup": "(","enlow": "9","enup": "(","isSpec": "false"},
+      {"ruslow": "0","rusup": ")","enlow": "0","enup": ")","isSpec": "false"},
+      {"ruslow": "-","rusup": "_","enlow": "-","enup": "_","isSpec": "false"},
+      {"ruslow": "=","rusup": "+","enlow": "=","enup": "+","isSpec": "false"},
+      {"ruslow": "Backspace","rusup": "Backspace","enlow": "Backspace","enup": "Backspace","isSpec": "true"}
+    ],
+    [
+      {"ruslow": "Tab","rusup": "Tab","enlow": "Tab","enup": "Tab","isSpec": "true"},
+      {"ruslow": "й","rusup": "Й","enlow": "q","enup": "Q","isSpec": "false"},
+      {"ruslow": "ц","rusup": "Ц","enlow": "w","enup": "W","isSpec": "false"},
+      {"ruslow": "у","rusup": "У","enlow": "e","enup": "E","isSpec": "false"},
+      {"ruslow": "к","rusup": "К","enlow": "r","enup": "R","isSpec": "false"},
+      {"ruslow": "е","rusup": "Е","enlow": "t","enup": "T","isSpec": "false"},
+      {"ruslow": "н","rusup": "Н","enlow": "y","enup": "Y","isSpec": "false"},
+      {"ruslow": "г","rusup": "Г","enlow": "u","enup": "U","isSpec": "false"},
+      {"ruslow": "ш","rusup": "Ш","enlow": "i","enup": "I","isSpec": "false"},
+      {"ruslow": "щ","rusup": "Щ","enlow": "o","enup": "O","isSpec": "false"},
+      {"ruslow": "з","rusup": "З","enlow": "p","enup": "P","isSpec": "false"},
+      {"ruslow": "х","rusup": "Х","enlow": "[","enup": "{","isSpec": "false"},
+      {"ruslow": "ъ","rusup": "Ъ","enlow": "]","enup": "}","isSpec": "false"},
+      {"ruslow": "\\","rusup": "/","enlow": "\\","enup": "|","isSpec": "false"}
+    ],
+    [
+      {"ruslow": "CapsLock","rusup": "CapsLock","enlow": "CapsLock","enup": "CapsLock","isSpec": "true"},
+      {"ruslow": "ф","rusup": "Ф","enlow": "a","enup": "A","isSpec": "false"},
+      {"ruslow": "ы","rusup": "Ы","enlow": "s","enup": "S","isSpec": "false"},
+      {"ruslow": "в","rusup": "В","enlow": "d","enup": "D","isSpec": "false"},
+      {"ruslow": "а","rusup": "А","enlow": "f","enup": "F","isSpec": "false"},
+      {"ruslow": "п","rusup": "П","enlow": "g","enup": "G","isSpec": "false"},
+      {"ruslow": "р","rusup": "Р","enlow": "h","enup": "H","isSpec": "false"},
+      {"ruslow": "о","rusup": "О","enlow": "j","enup": "J","isSpec": "false"},
+      {"ruslow": "л","rusup": "Л","enlow": "k","enup": "K","isSpec": "false"},
+      {"ruslow": "д","rusup": "Д","enlow": "l","enup": "L","isSpec": "false"},
+      {"ruslow": "ж","rusup": "Ж","enlow": ";","enup": ":","isSpec": "false"},
+      {"ruslow": "э","rusup": "Э","enlow": "'","enup": "\"","isSpec": "false"},
+      {"ruslow": "Enter","rusup": "Enter","enlow": "Enter","enup": "Enter","isSpec": "true"}
+    ],
+    [
+      {"ruslow": "Shift","rusup": "Shift","enlow": "Shift","enup": "Shift","isSpec": "true"},
+      {"ruslow": "я","rusup": "Я","enlow": "z","enup": "Z","isSpec": "false"},
+      {"ruslow": "ч","rusup": "Ч","enlow": "x","enup": "X","isSpec": "false"},
+      {"ruslow": "с","rusup": "С","enlow": "c","enup": "C","isSpec": "false"},
+      {"ruslow": "м","rusup": "М","enlow": "v","enup": "V","isSpec": "false"},
+      {"ruslow": "и","rusup": "И","enlow": "b","enup": "B","isSpec": "false"},
+      {"ruslow": "т","rusup": "Т","enlow": "n","enup": "N","isSpec": "false"},
+      {"ruslow": "ь","rusup": "Ь","enlow": "m","enup": "M","isSpec": "false"},
+      {"ruslow": "б","rusup": "Б","enlow": ",","enup": "<","isSpec": "false"},
+      {"ruslow": "ю","rusup": "Ю","enlow": ".","enup": ">","isSpec": "false"},
+      {"ruslow": ".","rusup": ",","enlow": "/","enup": "?","isSpec": "false"},
+      {"ruslow": "up","rusup": "up","enlow": "up","enup": "up","isSpec": "false"},
+      {"ruslow": "Shift","rusup": "Shift","enlow": "Shift","enup": "Shift","isSpec": "true"}
+    ],
+    [
+      {"ruslow": "Ctrl","rusup": "Ctrl","enlow": "Ctrl","enup": "Ctrl","isSpec": "true"},
+      {"ruslow": "Win","rusup": "Win","enlow": "Win","enup": "Win","isSpec": "true"},
+      {"ruslow": "Alt","rusup": "Alt","enlow": "Alt","enup": "Alt","isSpec": "true"},
+      {"ruslow": "Spaaace","rusup": "Spaaace","enlow": "Spaaace","enup": "Spaaace","isSpec": "true"},
+      {"ruslow": "Alt","rusup": "Alt","enlow": "Alt","enup": "Alt","isSpec": "true"},
+      {"ruslow": "left","rusup": "left","enlow": "left","enup": "left","isSpec": "true"},
+      {"ruslow": "down","rusup": "down","enlow": "down","enup": "down","isSpec": "true"},
+      {"ruslow": "right","rusup": "right","enlow": "right","enup": "right","isSpec": "true"},
+      {"ruslow": "Ctrl","rusup": "Ctrl","enlow": "Ctrl","enup": "Ctrl","isSpec": "true"}
+    ]
+  ]
+}
