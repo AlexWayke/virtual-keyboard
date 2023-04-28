@@ -52,10 +52,113 @@ a {
 }
 
 :root {
-  --color-btn:#c67a30;
-  --color-btn-hover:#e49445;
-  --color-btn-spec:#8b471a;
-  --color-bg:#98624c;
-  --color-border:#543431;
+  --color-btn:#009999;
+  --color-btn-hover:#1D7373;
+  --color-btn-spec:#006363;
+  --color-bg:#33CCCC;
+  --color-border:#006363;
   --color-text: #fff;
+}
+
+.main {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-text);
+}
+
+.keyboard__textarea {
+  box-sizing: border-box;
+  padding: 10px;
+  color: var(--color-text);
+  width: 100%;
+  height: 200px;
+  border: 3px solid var(--color-border);
+  border-radius: 10px;
+  background-color: var(--color-bg);
+  font-size: 16px;
+  line-height: 1.2;
+}
+.keyboard__textarea:focus-visible {
+  outline: none;
+}
+.keyboard__wrapper {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  background-color: var(--color-bg);
+  border: 3px var(--color-border) solid;
+  border-radius: 10px;
+}
+.keyboard__row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.keyboard__row:nth-child(4) .btn:nth-child(12) {
+  flex-grow: 0;
+}
+.keyboard__row:nth-child(5) .btn {
+  flex-grow: 1;
+}
+.keyboard__row:nth-child(5) .btn-spec {
+  flex-grow: 0;
+}
+.keyboard__notation {
+  background-color: var(--color-bg);
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px var(--color-border) solid;
+}
+
+.btn {
+  position: relative;
+  min-width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 3px var(--color-border) solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--color-btn);
+  transition: all 0.1s ease;
+  box-shadow: 1px 2px 4px 0px rgba(34, 60, 80, 0.2);
+}
+.btn__letter-low {
+  position: absolute;
+  top: calc(50% - 8px);
+  transition: all 0.1s ease;
+}
+.btn__letter-up {
+  transition: all 0.1s ease;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  transform: scale(0.6);
+}
+.btn.shifted .btn__letter-low {
+  transform: scale(0);
+}
+.btn.shifted .btn__letter-up {
+  transform: scale(1) translate(-13px, -10px);
+}
+.btn-spec {
+  flex-grow: 1;
+  background-color: var(--color-btn-spec);
+}
+.btn:active {
+  background-color: var(--color-btn-hover);
+  box-shadow: 0 0 8px 0px rgba(34, 60, 80, 0.2);
+  transform: scale(0.9);
 }/*# sourceMappingURL=style.css.map */
